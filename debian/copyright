@@ -1,10 +1,17 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: template-repository
-Source: https://github.com/deepin-community/template-repository
+Upstream-Name: supermin
+Source: http://libguestfs.org/
 
 Files: *
-Copyright: 2023 Tsic404 <liuheng@deepin.org>
-License: GPL-2+
+Copyright: 2009-2017 Red Hat Inc.
+License: GPL-2.0+
+
+Files: debian/*
+Copyright: 2009-2010 Richard W.M. Jones <rjones@redhat.com>
+           2011-2017 Hilko Bengen <bengen@debian.org>
+License: GPL-2.0+
+
+License: GPL-2.0+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
  the Free Software Foundation; either version 2 of the License, or
